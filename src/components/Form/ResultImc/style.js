@@ -18,6 +18,23 @@ const styles = StyleSheet.create({
         color: "#FF0043",
         fontWeight:"bold",
     },
+
+    boxShareButton: {
+        width:"100%",
+        alignItems:"center",
+        marginBottom:10,
+    },
+    shared: {
+        backgroundColor:"#1877f2",
+        paddingTop:5,
+        paddingBottom:5,
+        borderRadius:50,
+    },
+    sharedText: {
+        color:"#fff",
+        paddingHorizontal:30,
+        fontWeight:"bold"
+    }
     
 });
 
