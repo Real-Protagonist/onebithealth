@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
-import { View, TextInput, Text, TouchableOpacity } from 'react-native'
+import { 
+    View,
+    TextInput,
+    Text,
+    TouchableOpacity,
+    Vibration
+ } from 'react-native'
 import ResultImc from './ResultImc'
 import styles from './style'
 
@@ -13,8 +19,10 @@ export default function Form() {
     const [errorMessage, setErrorMessage] = useState(null)
 
     function verificationImc() {
-        if (imc == null)
+        if (imc == null) {
+            Vibration.vibrate();
             setErrorMessage("Preenhca o campo obrigatório *")
+        }
     }
 
     function imcCalculator() {
@@ -32,9 +40,9 @@ export default function Form() {
             return
         }
         verificationImc()
-        setImc(null)
         setTextButton("Calcular")
         setMessageImc("Preencha o peso e altura")
+        setImc(null)
     }
 
     return (
