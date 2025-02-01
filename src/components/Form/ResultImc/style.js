@@ -14,10 +14,11 @@ const styles = StyleSheet.create({
         fontWeight:"bold",
     },
     numberImc: {
-        fontSize: 18,
+        fontSize: 38,
         color: "#FF0043",
         fontWeight:"bold",
-    }
+    },
+    
 });
 
 export default styles;
