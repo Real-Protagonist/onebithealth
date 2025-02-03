@@ -28,7 +28,8 @@ export default function Form() {
     }
 
     function imcCalculator() {
-        return setImc((weight / (height * height)).toFixed(2))
+        let alturaFormat = height.replace(",", ".")
+        return setImc((weight / (alturaFormat * alturaFormat)).toFixed(2))
     }
 
     function validationImc() {
