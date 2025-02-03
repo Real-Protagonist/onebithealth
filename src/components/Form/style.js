@@ -7,9 +7,11 @@ const styles = StyleSheet.create({
         bottom:0,
         backgroundColor:"#fff",
         alignItems:"center",
-        marginTop:30,
+        marginTop:20,
         borderTopRightRadius:30,
-        borderTopLeftRadius:30
+        borderTopLeftRadius:30,
+        justifyContent: "space-around",
+        paddingTop:15,
     },
 
     form: {
