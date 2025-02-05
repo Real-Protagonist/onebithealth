@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         bottom:0,
         backgroundColor:"#fff",
         alignItems:"center",
-        marginTop:20,
+        marginTop:0,
         borderTopRightRadius:30,
         borderTopLeftRadius:30,
         justifyContent: "space-around",
@@ -16,9 +16,7 @@ const styles = StyleSheet.create({
 
     form: {
         width:"100%",
-        height:"auto",
-        marginTop:30,
-        padding:10,
+        paddingTop:0
     },
 
     formLabel: {
