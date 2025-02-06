@@ -56,6 +56,11 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         paddingLeft: 20,
         fontSize: 12,
+    },
+
+    exhibitionResultImc: {
+        width:"100%",
+        height:"50%"
     }
 });
 
