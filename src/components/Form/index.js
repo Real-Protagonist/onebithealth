@@ -105,7 +105,7 @@ export default function Form() {
         }
         <FlatList 
             style={styles.listImcs}
-            data={imcList.reverse()}
+            data={[...imcList].reverse()}
             renderItem={({item}) => {
                 return(
                     <Text style={styles.resultImcItem}>
